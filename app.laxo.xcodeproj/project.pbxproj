@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542433F62CA6D51E00A6ACAB /* AssetsCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542433F52CA6D51E00A6ACAB /* AssetsCatalog.xcassets */; };
+		5489AC952CA1E9E400C15AE2 /* app_laxoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489AC942CA1E9E400C15AE2 /* app_laxoApp.swift */; };
+		5489AC9D2CA1E9E600C15AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5489AC9C2CA1E9E600C15AE2 /* Preview Assets.xcassets */; };
+		5489ACA72CA1E9E600C15AE2 /* app_laxoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ACA62CA1E9E600C15AE2 /* app_laxoTests.swift */; };
+		5489ACB12CA1E9E600C15AE2 /* app_laxoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ACB02CA1E9E600C15AE2 /* app_laxoUITests.swift */; };
+		5489ACB32CA1E9E600C15AE2 /* app_laxoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ACB22CA1E9E600C15AE2 /* app_laxoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5489ACA32CA1E9E600C15AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5489AC892CA1E9E400C15AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5489AC902CA1E9E400C15AE2;
+			remoteInfo = app.laxo;
+		};
+		5489ACAD2CA1E9E600C15AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5489AC892CA1E9E400C15AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5489AC902CA1E9E400C15AE2;
+			remoteInfo = app.laxo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542433F52CA6D51E00A6ACAB /* AssetsCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsCatalog.xcassets; sourceTree = "<group>"; };
+		5489AC912CA1E9E400C15AE2 /* app.laxo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.laxo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5489AC942CA1E9E400C15AE2 /* app_laxoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_laxoApp.swift; sourceTree = "<group>"; };
+		5489AC9A2CA1E9E600C15AE2 /* app_laxo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app_laxo.entitlements; sourceTree = "<group>"; };
+		5489AC9C2CA1E9E600C15AE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5489ACA22CA1E9E600C15AE2 /* app.laxoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app.laxoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5489ACA62CA1E9E600C15AE2 /* app_laxoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_laxoTests.swift; sourceTree = "<group>"; };
+		5489ACAC2CA1E9E600C15AE2 /* app.laxoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app.laxoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5489ACB02CA1E9E600C15AE2 /* app_laxoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_laxoUITests.swift; sourceTree = "<group>"; };
+		5489ACB22CA1E9E600C15AE2 /* app_laxoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_laxoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5489AC8E2CA1E9E400C15AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489AC9F2CA1E9E600C15AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489ACA92CA1E9E600C15AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5489AC882CA1E9E400C15AE2 = {
+			isa = PBXGroup;
+			children = (
+				5489AC932CA1E9E400C15AE2 /* app.laxo */,
+				5489ACA52CA1E9E600C15AE2 /* app.laxoTests */,
+				5489ACAF2CA1E9E600C15AE2 /* app.laxoUITests */,
+				5489AC922CA1E9E400C15AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5489AC922CA1E9E400C15AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5489AC912CA1E9E400C15AE2 /* app.laxo.app */,
+				5489ACA22CA1E9E600C15AE2 /* app.laxoTests.xctest */,
+				5489ACAC2CA1E9E600C15AE2 /* app.laxoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5489AC932CA1E9E400C15AE2 /* app.laxo */ = {
+			isa = PBXGroup;
+			children = (
+				5489AC942CA1E9E400C15AE2 /* app_laxoApp.swift */,
+				5489AC9A2CA1E9E600C15AE2 /* app_laxo.entitlements */,
+				5489AC9B2CA1E9E600C15AE2 /* Preview Content */,
+				542433F52CA6D51E00A6ACAB /* AssetsCatalog.xcassets */,
+			);
+			path = app.laxo;
+			sourceTree = "<group>";
+		};
+		5489AC9B2CA1E9E600C15AE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5489AC9C2CA1E9E600C15AE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5489ACA52CA1E9E600C15AE2 /* app.laxoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5489ACA62CA1E9E600C15AE2 /* app_laxoTests.swift */,
+			);
+			path = app.laxoTests;
+			sourceTree = "<group>";
+		};
+		5489ACAF2CA1E9E600C15AE2 /* app.laxoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5489ACB02CA1E9E600C15AE2 /* app_laxoUITests.swift */,
+				5489ACB22CA1E9E600C15AE2 /* app_laxoUITestsLaunchTests.swift */,
+			);
+			path = app.laxoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5489AC902CA1E9E400C15AE2 /* app.laxo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5489ACB62CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxo" */;
+			buildPhases = (
+				5489AC8D2CA1E9E400C15AE2 /* Sources */,
+				5489AC8E2CA1E9E400C15AE2 /* Frameworks */,
+				5489AC8F2CA1E9E400C15AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = app.laxo;
+			productName = app.laxo;
+			productReference = 5489AC912CA1E9E400C15AE2 /* app.laxo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5489ACA12CA1E9E600C15AE2 /* app.laxoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5489ACB92CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxoTests" */;
+			buildPhases = (
+				5489AC9E2CA1E9E600C15AE2 /* Sources */,
+				5489AC9F2CA1E9E600C15AE2 /* Frameworks */,
+				5489ACA02CA1E9E600C15AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5489ACA42CA1E9E600C15AE2 /* PBXTargetDependency */,
+			);
+			name = app.laxoTests;
+			productName = app.laxoTests;
+			productReference = 5489ACA22CA1E9E600C15AE2 /* app.laxoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5489ACAB2CA1E9E600C15AE2 /* app.laxoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5489ACBC2CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxoUITests" */;
+			buildPhases = (
+				5489ACA82CA1E9E600C15AE2 /* Sources */,
+				5489ACA92CA1E9E600C15AE2 /* Frameworks */,
+				5489ACAA2CA1E9E600C15AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5489ACAE2CA1E9E600C15AE2 /* PBXTargetDependency */,
+			);
+			name = app.laxoUITests;
+			productName = app.laxoUITests;
+			productReference = 5489ACAC2CA1E9E600C15AE2 /* app.laxoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5489AC892CA1E9E400C15AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5489AC902CA1E9E400C15AE2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5489ACA12CA1E9E600C15AE2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5489AC902CA1E9E400C15AE2;
+					};
+					5489ACAB2CA1E9E600C15AE2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5489AC902CA1E9E400C15AE2;
+					};
+				};
+			};
+			buildConfigurationList = 5489AC8C2CA1E9E400C15AE2 /* Build configuration list for PBXProject "app.laxo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5489AC882CA1E9E400C15AE2;
+			productRefGroup = 5489AC922CA1E9E400C15AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5489AC902CA1E9E400C15AE2 /* app.laxo */,
+				5489ACA12CA1E9E600C15AE2 /* app.laxoTests */,
+				5489ACAB2CA1E9E600C15AE2 /* app.laxoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5489AC8F2CA1E9E400C15AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542433F62CA6D51E00A6ACAB /* AssetsCatalog.xcassets in Resources */,
+				5489AC9D2CA1E9E600C15AE2 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489ACA02CA1E9E600C15AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489ACAA2CA1E9E600C15AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5489AC8D2CA1E9E400C15AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5489AC952CA1E9E400C15AE2 /* app_laxoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489AC9E2CA1E9E600C15AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5489ACA72CA1E9E600C15AE2 /* app_laxoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5489ACA82CA1E9E600C15AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5489ACB32CA1E9E600C15AE2 /* app_laxoUITestsLaunchTests.swift in Sources */,
+				5489ACB12CA1E9E600C15AE2 /* app_laxoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5489ACA42CA1E9E600C15AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5489AC902CA1E9E400C15AE2 /* app.laxo */;
+			targetProxy = 5489ACA32CA1E9E600C15AE2 /* PBXContainerItemProxy */;
+		};
+		5489ACAE2CA1E9E600C15AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5489AC902CA1E9E400C15AE2 /* app.laxo */;
+			targetProxy = 5489ACAD2CA1E9E600C15AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5489ACB42CA1E9E600C15AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5489ACB52CA1E9E600C15AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5489ACB72CA1E9E600C15AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = app.laxo/app_laxo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"app.laxo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Laxo.one;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5489ACB82CA1E9E600C15AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = app.laxo/app_laxo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"app.laxo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Laxo.one;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5489ACBA2CA1E9E600C15AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.laxo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/app.laxo";
+			};
+			name = Debug;
+		};
+		5489ACBB2CA1E9E600C15AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.laxo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/app.laxo";
+			};
+			name = Release;
+		};
+		5489ACBD2CA1E9E600C15AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app.laxo;
+			};
+			name = Debug;
+		};
+		5489ACBE2CA1E9E600C15AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LGT8H5K7C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-f.app-laxoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app.laxo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5489AC8C2CA1E9E400C15AE2 /* Build configuration list for PBXProject "app.laxo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5489ACB42CA1E9E600C15AE2 /* Debug */,
+				5489ACB52CA1E9E600C15AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5489ACB62CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5489ACB72CA1E9E600C15AE2 /* Debug */,
+				5489ACB82CA1E9E600C15AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5489ACB92CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5489ACBA2CA1E9E600C15AE2 /* Debug */,
+				5489ACBB2CA1E9E600C15AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5489ACBC2CA1E9E600C15AE2 /* Build configuration list for PBXNativeTarget "app.laxoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5489ACBD2CA1E9E600C15AE2 /* Debug */,
+				5489ACBE2CA1E9E600C15AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5489AC892CA1E9E400C15AE2 /* Project object */;
+}
